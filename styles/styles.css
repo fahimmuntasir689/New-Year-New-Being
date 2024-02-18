@@ -1,0 +1,367 @@
+/* Universal Design */
+    *{font-family: "Merriweather", serif;
+
+}
+
+/* Banner part */
+
+.banner {
+    height: 600px;
+    margin: 50px 300px;
+    padding: 100px;
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+
+.banner>p {
+    color: #010e0a;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.banner>h1 {
+    color: #010e0a;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.banner>p,
+h1 {
+    text-align: center;
+}
+/* offer part */
+
+.offer>h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.offer>p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer>h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer>img {
+    margin: 0 auto;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Midnight party part */
+.midnight-party {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 600px;
+    /* width: 1320px; */
+    display: flex;
+    gap: 100px;
+    margin: 80px 300px;
+    padding: 125px;
+}
+
+.midnight-party>img {
+    height: 420px;
+}
+
+.text-part>h1 {
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.text-part>p {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-part>h3 {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Schedule part */
+
+.schedule {
+    background-color: rgb(231, 213, 213);
+    width: 1320px;
+    height: 500px;
+    margin: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+
+}
+
+.schedule>h4 {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btn-primary {
+
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* middle part */
+
+.middle {
+    display: flex;
+    width: 1320px;
+    height: 600px;
+    margin: 100px 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.middle img {
+    width: 140px;
+    height: 140px;
+
+
+}
+
+.middle .middle-one {
+   
+    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-one>h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.middle-one>h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.middle-one,.middle-three>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+   
+}
+.middle-three > h1{
+    color: #F00;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.middle-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    background-image: url(../images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    border-radius: 400px;
+    border: 15px solid #F00;
+    background-position: 13px;
+
+}
+
+ /* Portfolio part */
+
+.portfolio{
+    margin: 50px 250px;
+}
+.portfolio .gifts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.gifts img:hover{
+    width: 300px;
+
+}
+.portfolio > h3{
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.portfolio > h1{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 820px;
+    
+}
+.portfolio > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ /* Newsletter Part */
+
+.newsletter {
+    background-color: rgb(231, 213, 213);
+    width: 1320px;
+    height: 600px;
+    margin: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 50px;
+
+}
+
+.newsletter>h1 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.newsletter>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info-put {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-top: 20px;
+}
+
+#email {
+    width: 500px;
+    height: 69px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400
+}
+
+.btn-secondary {
+    width: 200px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border-style: none;
+}
+
+/* Footer part */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #070211;
+    margin-top: 100px;
+    padding: 80px 150px 80px 20px;
+
+}
+
+.contact>p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+footer .connection {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+ 
